@@ -113,7 +113,20 @@
 # f.close()
 
 f = open("C:\\study\\minipro\\temp.text", "r")
-res = f.read()
-print(res)
+# res = f.read()
 
+# for i in range(110):
+#     res = f.readline()
+#     print(res)
+
+# res = f.readlines()
+# print(res)
+
+# line = f.readlines()
+# for l in line :
+#     print(l)
+
+for line in f :
+    print(line)
+    
 f.close()
